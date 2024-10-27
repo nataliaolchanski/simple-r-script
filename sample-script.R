@@ -7,8 +7,10 @@
 # Last Updated: [Replace with today's date]
 #--------------------------------------------------------------
 
+setwd("C:/Users/nolchanski/Github/simple-r-script")
 # read in the sample data -------------------------------------
 data <- read.csv('data.csv')
 
 
 # calculate summary statistics --------------------------------
+lapply(data, summary)
